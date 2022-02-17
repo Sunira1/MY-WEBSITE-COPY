@@ -1,22 +1,37 @@
 <!DOCTYPE html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>Login/Sign Up Form</title>
-    <link rel="shortuct icon" href="/assests/favicon.ico">
-    <link rel="stylesheet" href="./src/main.css">
 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Login/Sign Up Form</title>
+    <link rel="shortuct icon" href="/assests/favicon.ico" />
+    <link rel="stylesheet" href="./src/main.css" />
 </head>
+
 <body>
     <div class="container">
         <form class="form" id="login">
-       <h1 class="form_ _title">Login</h1>
-       <div class="form_ _ message form_ _ message--error">Incorrect username/password combination</div>
-<div class="form_ _ input-group">
-    <input type="text" class="form__ input" autofocus placeholder="Username or email">
-<div class="form_ _ inoput-error-message">This is an error message</div>
-</div>
-    </form>   
- </div>
- <script src="./src/main.js"></script>
+            <h1 class="form_ _title">Login</h1>
+            <div class="form_ _ message form_ _ message--error">
+                Incorrect username/password combination.</div>
+            <div class="form_ _ input-group">
+                <input type="text" class="form__ input" autofocus placeholder="Username or email">
+                <div class="form_ _ inoput-error-message">This is an error message</div>
+            </div>
+            <div class="form_ _ input-group">
+                <input type="password" class="form__ input" autofocus placeholder="Password">
+                <div class="form_ _ inoput-error-message"></div>
+            </div>
+            <button class="form__ button" type="submit">Continue</button>
+            <p class="form_ _ text">
+                <a href="#" class="form_ _link">Forgot your password?</a>
+            </p>
+            <p class="form_ _ text">
+                <a  class="form_ _ link">href="./" id="linkCreateAccount">
+                    Don't have an account? Create a new account here
+                </a>
+            </p>
+        </form>
+    </div>
+    <script src="./src/main.js"></script>
 </body>
